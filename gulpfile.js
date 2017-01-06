@@ -53,7 +53,7 @@ const reload = browserSync.reload;
 
 gulp.task('browser-sync', () => {
   browserSync({
-    proxy: 'jupe-by-jackie.dev',
+    proxy: 'floriskoch.dev',
     browser: 'google chrome',
   });
 });
